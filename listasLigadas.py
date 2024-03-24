@@ -65,7 +65,7 @@ class LinkedList:
 
 if __name__ == "__main__":
     linked_list = LinkedList()
-    for n in range(100000):
+    for n in range(100):
         linked_list.append(randint(0, 1000))
     print(len(linked_list))
 
